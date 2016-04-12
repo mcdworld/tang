@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="73v-a0-JZ0">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--作者簡介-->
+        <scene sceneID="ApE-hb-Nol">
+            <objects>
+                <viewController id="uPu-6D-b92" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IhO-hE-Ah8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="h7j-pM-Cyt">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">作者簡介：
+并 州 人 。 工 詩 ， 文 名 動 一 時 。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="作者簡介" id="Ytl-4S-gFX">
+                        <barButtonItem key="backBarButtonItem" title="回詩題" id="pXe-dk-ogg"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sDr-Gd-61n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1345" y="-343"/>
+        </scene>
+        <!--王之渙-->
+        <scene sceneID="bQB-Pe-oqe">
+            <objects>
+                <viewController id="73v-a0-JZ0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Oik-mz-0j5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DoY-at-BeQ">
+                                <rect key="frame" x="20" y="194" width="80" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.54204906070000003" blue="0.4598510368" alpha="0.3868149038" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="登鸛鵲樓"/>
+                                <connections>
+                                    <segue destination="T9G-lg-YW1" kind="push" id="I4R-Uh-fkv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="STl-6T-P19">
+                                <rect key="frame" x="120" y="194" width="80" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.54204906070000003" blue="0.4598510368" alpha="0.3868149038" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="出塞"/>
+                                <connections>
+                                    <segue destination="8uD-uB-9J4" kind="push" id="cnn-ju-bOn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="txN-c4-IRt">
+                                <rect key="frame" x="20" y="84" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.78750820740000005" green="1" blue="0.36468520580000002" alpha="0.3868149038" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="作者簡介"/>
+                                <connections>
+                                    <segue destination="uPu-6D-b92" kind="push" id="VJB-0W-i0j"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="詩題" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KwS-Ee-Mb1">
+                                <rect key="frame" x="131" y="134" width="59" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="王之渙" id="vTH-zm-Njr">
+                        <barButtonItem key="backBarButtonItem" title="回作者" id="nfR-JA-Ue2"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ue-6s-n6o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1345" y="288"/>
+        </scene>
+        <!--登鸛鵲樓-->
+        <scene sceneID="ZuE-3A-f5p">
+            <objects>
+                <viewController id="T9G-lg-YW1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oEB-Ys-dKd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="Q2q-0E-1ct">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="341"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">詩名: 登 鸛 鵲 樓
+作者: 王 之 渙 　　詩體: 五 言 絕 句  
+詩文: 　( 押 尤 韻 ) 
+白 日 依 山 盡 ，	 黃 河 入 海 流 。
+欲 窮 千 里 目 ，	 更 上 一 層 樓 。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="登鸛鵲樓" id="6an-ER-ahd">
+                        <barButtonItem key="backBarButtonItem" title="王之渙" id="C0j-Ij-UWf"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ROR-yq-X3x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1702" y="288"/>
+        </scene>
+        <!--出塞-->
+        <scene sceneID="mX0-rc-Zyb">
+            <objects>
+                <viewController id="8uD-uB-9J4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="djs-iX-mAC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="qJK-sv-LUa">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="370"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">詩名: 出 塞
+作者: 王 之 渙 　　 詩體: 樂 府 
+ 詩文: 
+黃 河 遠 上 白 雲 間 ， 一 片 孤 城 萬 仞 山 。
+羌 笛 何 須 怨 楊 柳 ， 春 風 不 度 玉 門 關 。
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="出塞" id="Pc9-z5-xza">
+                        <barButtonItem key="backBarButtonItem" title="王之渙" id="CK2-nW-ob2"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NXd-em-0bM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2050" y="288"/>
+        </scene>
+    </scenes>
+</document>
