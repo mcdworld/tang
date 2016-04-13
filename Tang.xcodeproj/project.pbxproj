@@ -18,6 +18,7 @@
 		A9FA96621CBDEC9400B12D7C /* Wang2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FA96611CBDEC9400B12D7C /* Wang2.storyboard */; };
 		A9FA96651CBE0B0000B12D7C /* Wang3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FA96631CBE0B0000B12D7C /* Wang3.storyboard */; };
 		A9FA96671CBE1E7500B12D7C /* Wang4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FA96661CBE1E7500B12D7C /* Wang4.storyboard */; };
+		A9FA966A1CBE65AE00B12D7C /* Wang5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FA96681CBE65AE00B12D7C /* Wang5.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A9FA96611CBDEC9400B12D7C /* Wang2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wang2.storyboard; sourceTree = "<group>"; };
 		A9FA96641CBE0B0000B12D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Wang3.storyboard; sourceTree = "<group>"; };
 		A9FA96661CBE1E7500B12D7C /* Wang4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wang4.storyboard; sourceTree = "<group>"; };
+		A9FA96691CBE65AE00B12D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Wang5.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				A96348481CBD0DF600F15CF0 /* AppDelegate.swift */,
 				A963484A1CBD0DF600F15CF0 /* ViewController.swift */,
 				A963484C1CBD0DF600F15CF0 /* Main.storyboard */,
+				A9FA96681CBE65AE00B12D7C /* Wang5.storyboard */,
 				A9FA96661CBE1E7500B12D7C /* Wang4.storyboard */,
 				A9FA96631CBE0B0000B12D7C /* Wang3.storyboard */,
 				A9FA96611CBDEC9400B12D7C /* Wang2.storyboard */,
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9FA96621CBDEC9400B12D7C /* Wang2.storyboard in Resources */,
+				A9FA966A1CBE65AE00B12D7C /* Wang5.storyboard in Resources */,
 				A9BB12231CBD16BF00F885AF /* Wang.storyboard in Resources */,
 				A96348531CBD0DF600F15CF0 /* LaunchScreen.storyboard in Resources */,
 				A9FA96651CBE0B0000B12D7C /* Wang3.storyboard in Resources */,
@@ -342,6 +346,14 @@
 				A9FA96641CBE0B0000B12D7C /* Base */,
 			);
 			name = Wang3.storyboard;
+			sourceTree = "<group>";
+		};
+		A9FA96681CBE65AE00B12D7C /* Wang5.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FA96691CBE65AE00B12D7C /* Base */,
+			);
+			name = Wang5.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
