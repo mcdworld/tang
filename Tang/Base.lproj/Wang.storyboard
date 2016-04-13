@@ -13,14 +13,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="h7j-pM-Cyt">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="195"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="211 - UY7lN7i" id="Qyw-rt-lkP">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="eF1-pS-enL">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">作者簡介：
-并 州 人 。 工 詩 ， 文 名 動 一 時 。
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+并 州 人 。 工 詩 ， 文 名 動 一 時 。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -42,11 +44,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tumblr_mdbufq4uWE1rhztfto1_1280" id="Xiu-ah-TjX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DoY-at-BeQ">
                                 <rect key="frame" x="20" y="194" width="80" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.54204906070000003" blue="0.4598510368" alpha="0.3868149038" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="登鸛鵲樓"/>
+                                <state key="normal" title="登鸛鵲樓">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="T9G-lg-YW1" kind="push" id="I4R-Uh-fkv"/>
                                 </connections>
@@ -55,7 +63,9 @@
                                 <rect key="frame" x="120" y="194" width="80" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.54204906070000003" blue="0.4598510368" alpha="0.3868149038" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="出塞"/>
+                                <state key="normal" title="出塞">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="8uD-uB-9J4" kind="push" id="cnn-ju-bOn"/>
                                 </connections>
@@ -64,7 +74,9 @@
                                 <rect key="frame" x="20" y="84" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.78750820740000005" green="1" blue="0.36468520580000002" alpha="0.3868149038" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="作者簡介"/>
+                                <state key="normal" title="作者簡介">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="uPu-6D-b92" kind="push" id="VJB-0W-i0j"/>
                                 </connections>
@@ -73,7 +85,7 @@
                                 <rect key="frame" x="131" y="134" width="59" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -97,10 +109,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="055 - V8dVFWx" id="Ksm-H9-a1E">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="Q2q-0E-1ct">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="341"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="341"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">詩名: 登 鸛 鵲 樓
 作者: 王 之 渙 　　詩體: 五 言 絕 句  
 詩文: 　( 押 尤 韻 ) 
@@ -129,10 +144,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="055 - V8dVFWx" id="X8d-Lu-t9n">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="qJK-sv-LUa">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="370"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="370"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">詩名: 出 塞
 作者: 王 之 渙 　　 詩體: 樂 府 
  詩文: 
@@ -155,4 +173,9 @@
             <point key="canvasLocation" x="2050" y="288"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="055 - V8dVFWx" width="576" height="1024"/>
+        <image name="211 - UY7lN7i" width="576" height="1024"/>
+        <image name="tumblr_mdbufq4uWE1rhztfto1_1280" width="640" height="1136"/>
+    </resources>
 </document>

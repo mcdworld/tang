@@ -15,6 +15,9 @@
 		A963485E1CBD0DF600F15CF0 /* TangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963485D1CBD0DF600F15CF0 /* TangTests.swift */; };
 		A96348691CBD0DF600F15CF0 /* TangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96348681CBD0DF600F15CF0 /* TangUITests.swift */; };
 		A9BB12231CBD16BF00F885AF /* Wang.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9BB12211CBD16BF00F885AF /* Wang.storyboard */; };
+		A9FA96621CBDEC9400B12D7C /* Wang2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FA96611CBDEC9400B12D7C /* Wang2.storyboard */; };
+		A9FA96651CBE0B0000B12D7C /* Wang3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FA96631CBE0B0000B12D7C /* Wang3.storyboard */; };
+		A9FA96671CBE1E7500B12D7C /* Wang4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FA96661CBE1E7500B12D7C /* Wang4.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A96348681CBD0DF600F15CF0 /* TangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangUITests.swift; sourceTree = "<group>"; };
 		A963486A1CBD0DF600F15CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9BB12221CBD16BF00F885AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Wang.storyboard; sourceTree = "<group>"; };
+		A9FA96611CBDEC9400B12D7C /* Wang2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wang2.storyboard; sourceTree = "<group>"; };
+		A9FA96641CBE0B0000B12D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Wang3.storyboard; sourceTree = "<group>"; };
+		A9FA96661CBE1E7500B12D7C /* Wang4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wang4.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				A96348481CBD0DF600F15CF0 /* AppDelegate.swift */,
 				A963484A1CBD0DF600F15CF0 /* ViewController.swift */,
 				A963484C1CBD0DF600F15CF0 /* Main.storyboard */,
+				A9FA96661CBE1E7500B12D7C /* Wang4.storyboard */,
+				A9FA96631CBE0B0000B12D7C /* Wang3.storyboard */,
+				A9FA96611CBDEC9400B12D7C /* Wang2.storyboard */,
 				A9BB12211CBD16BF00F885AF /* Wang.storyboard */,
 				A963484F1CBD0DF600F15CF0 /* Assets.xcassets */,
 				A96348511CBD0DF600F15CF0 /* LaunchScreen.storyboard */,
@@ -235,10 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FA96621CBDEC9400B12D7C /* Wang2.storyboard in Resources */,
 				A9BB12231CBD16BF00F885AF /* Wang.storyboard in Resources */,
 				A96348531CBD0DF600F15CF0 /* LaunchScreen.storyboard in Resources */,
+				A9FA96651CBE0B0000B12D7C /* Wang3.storyboard in Resources */,
 				A96348501CBD0DF600F15CF0 /* Assets.xcassets in Resources */,
 				A963484E1CBD0DF600F15CF0 /* Main.storyboard in Resources */,
+				A9FA96671CBE1E7500B12D7C /* Wang4.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +334,14 @@
 				A9BB12221CBD16BF00F885AF /* Base */,
 			);
 			name = Wang.storyboard;
+			sourceTree = "<group>";
+		};
+		A9FA96631CBE0B0000B12D7C /* Wang3.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FA96641CBE0B0000B12D7C /* Base */,
+			);
+			name = Wang3.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

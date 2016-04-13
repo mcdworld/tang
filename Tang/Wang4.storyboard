@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="kNm-5T-Sii">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--老將行-->
+        <scene sceneID="U9Z-ZP-eOp">
+            <objects>
+                <viewController id="elv-FQ-qzf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UYC-RK-BC9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="cAa-57-8wQ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">詩名: 老 將 行
+作者: 王 維 　　 詩體: 樂 府 
+ 詩文:
+少年十五二十時，	步行奪得胡馬騎。
+射殺山中白額虎，	肯數鄴下黃鬚兒？
+一身轉戰三千里，	一劍曾當百萬師。
+漢兵奮迅如霹靂，	虜騎崩騰畏蒺藜。
+衛青不敗由天幸，	李廣無功緣數奇。
+自從棄置便衰朽，	世事蹉跎成白首。
+昔時飛箭無全目，	今日垂楊生左肘。
+路旁時賣故侯瓜，	門前學種先生柳。
+蒼茫古木連窮巷，	寥落寒山對虛牖。
+誓令疏勒出飛泉，	不似潁川空使酒。
+賀蘭山下陣如雲，	羽檄交馳日夕聞。
+節使三河募年少，	詔書五道出將軍 。
+試拂鐵衣如雪色，	聊持寶劍動星文。
+願得燕弓射大將，	恥將越甲鳴吾君。
+莫嫌舊日雲中守，	猶堪一戰立功勳。
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="老將行" id="epT-am-lW8">
+                        <barButtonItem key="backBarButtonItem" title="王 維" id="def-ui-kzG"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="May-0F-EkH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="920" y="1003"/>
+        </scene>
+        <!--西施詠-->
+        <scene sceneID="03a-he-h0a">
+            <objects>
+                <viewController id="Ewk-RO-XCW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SQI-1W-oce">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="Yhb-fo-rfX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="413"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">詩名: 西 施 詠
+作者: 王 維 　　 詩體: 五 言 古 詩  
+詩文:
+艷 色 天 下 重 ，	　 西 施 寧 久 微 ？
+朝 為 越 溪 女 ，	　 暮 作 吳 宮 妃 。
+賤 日 豈 殊 眾 ，	　 貴 來 方 悟 稀 。
+邀 人 傅 香 粉 ，	　 不 自 著 羅 衣 。
+君 寵 益 驕 態 ，	　 君 憐 無 是 非 。
+當 時 浣 紗 伴 ，	　 莫 得 同 車 歸 。
+持 謝 鄰 家 子 ，	　 效 顰 安 可 希 ？
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="西施詠" id="Uoj-rl-nz9">
+                        <barButtonItem key="backBarButtonItem" title="王維" id="OsM-Wo-LlL"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GSI-ar-5Pt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1341" y="988"/>
+        </scene>
+        <!--雜詩-->
+        <scene sceneID="YmE-cE-5xu">
+            <objects>
+                <viewController id="WXW-rX-f0X" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O6N-Vn-7Uv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="ffJ-sI-3qH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="413"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">詩名: 雜 詩
+作者: 王 維 　　 詩體: 五 言 絕 句  
+詩文: 　( 押 未 韻 )
+君 自 故 鄉 來 ，	　 應 知 故 鄉 事 。
+來 日 綺 窗 前 ，	　 寒 梅 著 花 未 ？
+
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="雜詩" id="d4N-cR-3nm">
+                        <barButtonItem key="backBarButtonItem" title="王維" id="Iml-1e-CDY"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BT5-KE-mrM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1770" y="1016"/>
+        </scene>
+        <!--王維-->
+        <scene sceneID="RPk-nc-PH2">
+            <objects>
+                <viewController id="kNm-5T-Sii" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zab-82-xJg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tumblr_mdbufq4uWE1rhztfto1_1280" id="0R6-KS-RlT">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yEH-gT-KcF">
+                                <rect key="frame" x="20" y="84" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.78750820740000005" green="1" blue="0.36468520580000002" alpha="0.3868149038" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="作者簡介">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DDd-Ss-syD" kind="push" id="AFX-QP-DtX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="詩題" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uf3-Oo-pKg">
+                                <rect key="frame" x="131" y="134" width="59" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AIW-iX-mgT">
+                                <rect key="frame" x="20" y="194" width="80" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.54204906070000003" blue="0.4598510368" alpha="0.3868149038" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="送別">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="A7o-di-wxp" kind="push" id="MwN-nF-TbE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Br3-rw-zP0">
+                                <rect key="frame" x="20" y="251" width="80" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.54204906070000003" blue="0.4598510368" alpha="0.3868149038" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="西施詠">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ewk-RO-XCW" kind="push" id="PXf-gp-JPI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iag-bX-JN9">
+                                <rect key="frame" x="120" y="194" width="80" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.54204906070000003" blue="0.4598510368" alpha="0.3868149038" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="青溪">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Vdb-IN-Ico" kind="push" id="pNG-50-h5f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hrp-O7-Hzs">
+                                <rect key="frame" x="220" y="194" width="80" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.54204906070000003" blue="0.4598510368" alpha="0.3868149038" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="渭川田家">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CS1-7d-lSt" kind="push" id="tuJ-no-vRt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2Wl-rd-c0L">
+                                <rect key="frame" x="220" y="251" width="80" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.54204906070000003" blue="0.4598510368" alpha="0.3868149038" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="桃源行">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Wes-Gq-BOW" kind="push" id="bkL-44-2Jl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pjl-P5-yfJ">
+                                <rect key="frame" x="21" y="308" width="80" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.54204906070000003" blue="0.4598510368" alpha="0.3868149038" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="相思">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Yr8-PD-Uw1" kind="push" id="eg2-e3-SvE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WCw-bw-IWN">
+                                <rect key="frame" x="121" y="308" width="80" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.54204906070000003" blue="0.4598510368" alpha="0.3868149038" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="雜詩">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WXW-rX-f0X" kind="push" id="xbF-AC-bhP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3uS-GZ-jPi">
+                                <rect key="frame" x="221" y="308" width="80" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.54204906070000003" blue="0.4598510368" alpha="0.3868149038" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="鹿柴">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="btf-dW-suw" kind="push" id="58j-Tm-81O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ImJ-Dl-bFN">
+                                <rect key="frame" x="120" y="251" width="80" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.54204906070000003" blue="0.4598510368" alpha="0.3868149038" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="老將行">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="elv-FQ-qzf" kind="push" id="psO-pK-J1X"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="王維" id="Bpj-ZW-4za"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wKz-CE-maz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1410" y="221"/>
+        </scene>
+        <!--送別-->
+        <scene sceneID="hVq-Ib-d8V">
+            <objects>
+                <viewController id="A7o-di-wxp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kvo-JI-dIq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="xeB-3y-Fby">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="413"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">詩名: 送 別
+作者: 王 維 　　 詩體: 五 言 絕 句  
+詩文: 　( 押 微 韻 )
+山 中 相 送 罷 ，	　 日 暮 掩 柴 扉 。
+春 草 明 年 綠 ，	　 王 孫 歸 不 歸 。
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="送別" id="PB8-ZK-c19">
+                        <barButtonItem key="backBarButtonItem" title="王維" id="OzN-xS-yc0"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RDY-Ry-9Jh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1742" y="-439"/>
+        </scene>
+        <!--渭川田家-->
+        <scene sceneID="52E-qL-a0Z">
+            <objects>
+                <viewController id="CS1-7d-lSt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PIc-uq-T01">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="9Wd-wb-XDU">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="413"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">詩名: 渭 川 田 家
+作者: 王 維 　　 詩體: 五 言 古 詩  
+詩文:
+斜 陽 照 墟 落 ，	　 窮 巷 牛 羊 歸 。
+野 老 念 牧 童 ，	　 倚 杖 候 荊 扉 。
+雉 雊 麥 苗 秀 ，	　 蠶 眠 桑 葉 稀 。
+田 夫 荷 鋤 至 ，	　 相 見 語 依 依 。
+即 此 羨 閒 逸 ，	　 悵 然 吟 式 微 。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="渭川田家" id="Mhv-cy-XtC">
+                        <barButtonItem key="backBarButtonItem" title="王維" id="GyN-fy-TKV"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7lQ-Ob-2oV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2235" y="-379"/>
+        </scene>
+        <!--相思-->
+        <scene sceneID="PqS-dI-D6i">
+            <objects>
+                <viewController id="Yr8-PD-Uw1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uYu-m5-CdU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="X6n-Up-yf3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">詩名: 相 思
+作者: 王 維 　　 詩體: 五 言 絕 句  
+詩文: 　( 押 寘 韻 )
+紅 豆 生 南 國 ，	　 春 來 發 幾 枝 ？
+願 君 多 采 擷 ，	　 此 物 最 相 思 。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="相思" id="bOz-0V-9b8">
+                        <barButtonItem key="backBarButtonItem" title="王維" id="Zyg-FK-28v"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Do-SM-uCd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2270" y="272"/>
+        </scene>
+        <!--鹿柴-->
+        <scene sceneID="1qJ-et-WSC">
+            <objects>
+                <viewController id="btf-dW-suw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9fp-sH-2uf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="Vfj-kh-ZjG">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">詩名: 鹿 柴
+作者: 王 維 　　 詩體: 五 言 絕 句  
+詩文: 　( 押 漾 韻 )
+空 山 不 見 人 ，	　 但 聞 人 語 響 。
+返 景 入 深 林 ，	　 復 照 青 苔 上 。
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="鹿柴" id="fFj-EX-HkQ">
+                        <barButtonItem key="backBarButtonItem" title="王維" id="iFu-9e-eCz"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QiK-9E-PEA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2664" y="514"/>
+        </scene>
+        <!--青溪-->
+        <scene sceneID="6bm-5q-eda">
+            <objects>
+                <viewController id="Vdb-IN-Ico" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zYz-fe-pIL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="eQj-RE-9kn">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="413"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">詩名: 青 溪
+作者: 王 維 　　 詩體: 五 言 古 詩  
+詩文:
+言 入 黃 花 川 ，	　 每 逐 青 谿 水 。
+隨 山 將 萬 轉 ，	　 趣 途 無 百 里 。
+聲 喧 亂 石 中 ，	　 色 靜 深 松 裡 。
+漾 漾 汎 菱 荇 ，	　 澄 澄 映 葭 葦 。
+我 心 素 以 閒 ，	　 清 川 澹 如 此 。
+請 留 盤 石 上 ，	　 垂 釣 將 已 矣 。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="青溪" id="jaj-Us-1g5">
+                        <barButtonItem key="backBarButtonItem" title="王維 " id="kp3-ud-azh"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cUP-yN-Flt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2196" y="1134"/>
+        </scene>
+        <!--桃源行-->
+        <scene sceneID="lL8-dD-WOZ">
+            <objects>
+                <viewController id="Wes-Gq-BOW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S9d-4q-ilO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="055 - V8dVFWx" id="ehz-JT-bQL">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="psD-fw-YXG">
+                                <rect key="frame" x="0.0" y="20" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">詩名: 桃 源 行
+作者: 王 維 　　 詩體: 樂 府 
+ 詩文:
+漁舟逐水愛山春 ，	兩岸桃花夾古津 。
+坐看紅樹不知遠 ，	行盡青溪忽值人 。
+山口潛行始隈隩 ，	山開曠望旋平陸 。
+遙看一處攢雲樹 ，	近入千家散花竹 。
+樵客初傳漢姓名 ，	居人未改秦衣服 。
+居人共住武陵源 ，	還從物外起田園 。 月明松下房櫳靜 ，	日出雲中雞犬喧 。
+驚聞俗客爭來集 ，	競引還家問都邑 。
+平明閭巷掃花開 ，	薄暮漁樵乘水入 。
+初因避地去人間 ，	更問神仙遂不還 。
+峽裡誰知有人事 ，	世中遙望空雲山 。
+不疑靈境難聞見 ，	塵心未盡思鄉縣 。
+出洞無論隔山水 ，	辭家終擬長游衍 。
+自謂經過舊不迷 ，	安知峰壑今來變 。
+當時只記入山深 ，	青溪幾度到雲林 。
+春來遍是桃花水 ，	不辨仙源何處尋 。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="桃源行" id="KtW-Xi-2LG">
+                        <barButtonItem key="backBarButtonItem" title="王維" id="Kmo-5l-YVg"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BWb-TS-P1r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1903" y="361"/>
+        </scene>
+        <!--作者簡介-->
+        <scene sceneID="6Yh-wc-GP6">
+            <objects>
+                <viewController id="DDd-Ss-syD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zvr-Zv-tYF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="211 - UY7lN7i" id="qSc-If-nJt">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="C43-eM-olZ">
+                                <rect key="frame" x="0.0" y="64" width="320" height="351"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">作者簡介：
+字 摩 詰 ， 太 原 人 ， 九 歲 知 屬 辭 ， 與 弟 縉 齊 名 。 開 元 初 ， 擢 進 士 ， 歷 監 察 御 史 ， 累 遷 尚 書 右 丞 ， 世 稱 王 右 丞 。 工 草 隸 ， 善 詩 畫 ， 名 盛 開 元 天 寶 間 ， 時 謂 其 詩 中 有 畫 ， 畫 中 有 詩 。 有 別 墅 在 輞 川 ， 嘗 與 裴 迪 同 游 其 中 ， 賦 詩 為 樂 。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="作者簡介" id="ATo-gg-CL1">
+                        <barButtonItem key="backBarButtonItem" title="回詩題" id="r8O-5k-QAj"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EY2-7W-b8g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1164" y="-422"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="055 - V8dVFWx" width="576" height="1024"/>
+        <image name="211 - UY7lN7i" width="576" height="1024"/>
+        <image name="tumblr_mdbufq4uWE1rhztfto1_1280" width="640" height="1136"/>
+    </resources>
+</document>
